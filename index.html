@@ -1,1 +1,36 @@
+<!--
+This code will display a form,
+which will save data to the Spreadsheet within Sheet "pdaPNATE".
+-->
+<form data-spreadsheet-api="https://sheet2api.com/v1/y713TmuSqG8x/pdapnate/pdaPNATE">
+    <input type="text" name="Sigla_uf" placeholder="Sigla_Uf" />
+    <input type="text" name="Nome_municipio" placeholder="Nome_Municipio" />
+    <input type="text" name="Entidade_executora" placeholder="Entidade_Executora" />
+    <input type="text" name="Cod_ibge" placeholder="Cod_Ibge" />
+    <input type="text" name="Cnpj" placeholder="Cnpj" />
+    <input type="text" name="Valor_per_capita" placeholder="Valor_Per_Capita" />
+    <input type="text" name="Vl_pagar_ed_infantil" placeholder="Vl_Pagar_Ed_Infantil" />
+    <input type="text" name="Vl_pagar_ens_fundamental" placeholder="Vl_Pagar_Ens_Fundamental" />
+    <input type="text" name="Vl_pagar_ens_medio" placeholder="Vl_Pagar_Ens_Medio" />
+    <button type="submit" onClick="alert('Submitted')">Submit</button>
+</form>
+<script src="https://sheet2api.com/v1/template.js"></script>
+
 <script type="text/javascript" src="https://form.jotform.com/jsform/231504293921654"></script>
+
+<!--
+This code will list the contents of your Spreadsheet
+Sheet "pdaPNATE" onto the web page.
+-->
+<div data-spreadsheet-api="https://sheet2api.com/v1/y713TmuSqG8x/pdapnate/pdaPNATE">
+    <div><b>Sigla_Uf:</b>{{Sigla_uf}}</div>
+    <div><b>Nome_Municipio:</b>{{Nome_municipio}}</div>
+    <div><b>Entidade_Executora:</b>{{Entidade_executora}}</div>
+    <div><b>Cod_Ibge:</b>{{Cod_ibge}}</div>
+    <div><b>Cnpj:</b>{{Cnpj}}</div>
+    <div><b>Valor_Per_Capita:</b>{{Valor_per_capita}}</div>
+    <div><b>Vl_Pagar_Ed_Infantil:</b>{{Vl_pagar_ed_infantil}}</div>
+    <div><b>Vl_Pagar_Ens_Fundamental:</b>{{Vl_pagar_ens_fundamental}}</div>
+    <div><b>Vl_Pagar_Ens_Medio:</b>{{Vl_pagar_ens_medio}}</div>
+</div>
+<script src="https://sheet2api.com/v1/template.js"></script>
